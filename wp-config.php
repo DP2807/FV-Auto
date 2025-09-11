@@ -20,16 +20,17 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'FVAuto' );
+define( 'DB_NAME', 'fvauto' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'teamdev' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'StrongPass!2025' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '192.168.1.34' );
+
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
