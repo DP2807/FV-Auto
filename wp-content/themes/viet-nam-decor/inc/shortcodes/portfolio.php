@@ -271,7 +271,6 @@ get_flatsome_repeater_start($repeater);
 					  $dien_tich =get_field('dien_tich');?>
 					  <?php if( $so_phong_ngu){?>
                     <div class="thong-tin-du-an">
-						<span class="phong-ngu"><i class="fa fa-bed" aria-hidden="true"></i> <?php echo $so_phong_ngu;?></span> <span class="dien-tich"><i class="fa fa-area-chart" aria-hidden="true"></i> <?php echo $dien_tich;?></span><span class="phong-cach"><i class="fa-regular fa-pen-to-square"></i> Style <?php echo $phong_cach;?></span>
 					  </div>
 					  <?php }?>
                   </div>
