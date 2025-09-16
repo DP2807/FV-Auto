@@ -31,29 +31,15 @@ if (has_post_thumbnail()) {
 		$link_cataloge=get_field('link_cataloge');
 		?>
 		<ul>
-			<li><span class="label">Tên công trình:</span> <?php the_title(); ?></li>
-			<?php if($khach_hang){?>
-			<li><span class="label">Khách hàng:</span> <?php echo $khach_hang;?></li> 
-			<?php }?>
-			<?php if($dia_chi){?>
-			<li><span class="label">Địa chỉ:</span> <?php echo $dia_chi;?></li> 
-			<?php }?>
-			<?php if($hang_muc_thi_cong){?>
-			<li><span class="label">Hạng mục:</span> <?php echo $hang_muc_thi_cong;?></li> 
-			<?php }?>
-			<?php if($dien_tich){?>
-			<li><span class="label">Diện tích: </span><?php echo $dien_tich;?></li> 
-			<?php }?>
-			<?php if($phong_cach){?>
-			<li><span class="label">Phong cách:</span><?php echo $phong_cach;?></li> 
-			<?php }?>			
+			<li><span class="label">Tên sản phẩm:</span> <?php the_title(); ?></li>
+				
 		</ul>
 		<?php if($link_cataloge){?>
 		<a class="nut-cataloge" href="<?php echo $link_cataloge;?>"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Xem dự án với chất lượng HD</a>
 		<?php }?>
 		<div class="khuyen-mai-box">
 			<h3>
-				Khuyến mãi đặc biệt giảm 100% phí thiết kế khi thi công nội thất
+				Liên hệ ngay để được tư vấn chi tiết
 			</h3>
 			<?php echo do_shortcode('[contact-form-7 id="794" title="Form liên hệ 1"]');?>
 		</div>
